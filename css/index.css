@@ -1,0 +1,96 @@
+/* ESTILO DO MENU */
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #FFF!important;
+    background-color: rgb(192, 169, 133);
+    border-radius: 15px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(20, 211, 36, 0.705)!important;
+}
+
+.studio {
+    text-decoration: none;
+    color: #fff;
+}
+
+.studio:hover {
+    color: #FFF!important;
+    background-color: rgb(192, 169, 133);
+    border-radius: 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+.centralizar {
+    position: absolute;
+    margin-top: 150px!important;
+    margin-left: 50%;
+    color: #FFF!important;
+}
+
+
+/* background-color: rgb(192, 169, 133); */
+
+.navbar {
+    background-color: rgba(49, 43, 43, 0.884);
+    box-shadow: 0px 10px 30px #000;
+}
+
+
+/*------------------------------- FIM DO ESTILO DO MENU----------------------------- */
+
+.fundoBg {
+    height: 650px;
+    background-image: url(../img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: auto;
+}
+
+.font1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.font2 {
+    font-family: 'DM Mono', monospace;
+}
+
+.font3 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.section3 {
+    height: 650px;
+    background-image: url(../img/11.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: auto;
+}
+
+.margem {
+    min-height: 65px;
+}
