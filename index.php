@@ -14,48 +14,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <title>Hello, world!</title>
+    <meta name="theme-color" content="#312b2be1">
+    <title>Studio Coldre</title>
 </head>
 
 <body>
     <div class="mt-0 fundoBg">
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg">
-                <a class="navbar-brand studio font2" href="#"><span><img src="img/logo.png" height="60px" width="50px" alt="">Studio Coldre</span> </strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="https://img.icons8.com/cute-clipart/64/000000/menu.png" />
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-end mr-md-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SERVIÇOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">EMPRESA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">GALERIA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <?php include('menu.php'); ?>
 
         <div class="container">
-            <div class="cover-container h-100 p-3 mx-auto flex-column centralizar">
+            <div class="cover-container h-100 p-2 mx-auto flex-column centralizar">
                 <main role="main" class="inner cover wow fadeInDown">
                     <h1 class="text-center"></h1>
                     <h1 class="cover-heading  font2">Bem Vindo à Barbearia Coldre!</h1>
-                    <p class=" lead animated fadeInUp delay-1s font1 ">Aqui você encontra qualificação em mão de obra. Profissionais capacitados para atender na melhor forma a sua necessidade.
+                    <p class=" lead animated fadeInUp delay-1s font1 ">
+                        Aqui você encontra qualificação em mão de obra. Profissionais capacitados para atender na melhor forma a sua necessidade.
                     </p>
                     <p class="font1 "> Eficiência e qualidade você só encontra aqui!</p>
                     <p class="lead ">
@@ -71,7 +44,7 @@
     <section class="section2 mb-5 ">
 
         <div class="container ">
-            <h1 class="text-center mt text-warning font3 "> ~ O espaço </h1>
+            <h1 class="text-center mt text-warning font3"> ~ O espaço </h1>
         </div>
 
         <div class="container mt-5 wow fadeIn">
@@ -105,7 +78,7 @@
                 </div>
                 <div class="col-md-5 float-left">
 
-                    <img src="img/3.jpg " class="float-right rounded shadow-lg img-fluid" alt="21w ">
+                    <img src="img/3.jpg" class="float-right rounded shadow-lg img-fluid" alt="21w ">
 
                 </div>
 
@@ -120,7 +93,7 @@
             <div class="row featurette">
 
                 <div class="col-md-7 ">
-                    <h2 class="featurette-heading font1 ">Confira mais de perto. Agende um horário
+                    <h2 class="featurette-heading font1">Confira mais de perto. Agende um horário
                         <span class="text-muted ">It’ll blow yourmind.</span>
                     </h2>
                     <p class="lead font1 ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
@@ -128,7 +101,7 @@
                 </div>
                 <div class="col-md-5">
 
-                    <img src="img/4.jpg " class="rounded shadow-lg img-fluid" alt="21w ">
+                    <img src="img/4.jpg" class="rounded shadow-lg img-fluid" alt="21w ">
 
                 </div>
             </div>
@@ -180,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col  mt-2 mb-4">
-                    <div class="card shadow rounded wow fadeInRight">
+                    <div class="card shadow rounded wow fadeIn">
                         <img class="card-img-top" src="img/barber3.jpg " alt="Imagem de capa do card " width="200 " height="200 ">
                         <div class="card-body">
                             <h5 class="card-title "><strong class="text-success "> 03.</strong> Victor Cardoso</h5>
@@ -203,7 +176,7 @@
         </div>
     </section>
 
-    <section class="section4 dark">
+    <section class="section4 dark" id="servico">
         <div class="margem"></div>
         <div class="container">
             <h1 class="text-center text-warning font3">- Nossos serviços ... </h1>
@@ -222,7 +195,7 @@
                                     <ul class="list-unstyled mt-3 mb-4">
                                         <li>Barba e Cabelo</li>
                                     </ul>
-                                    <button type="button" class="btn btn-sm btn-block btn-outline-primary">Agendar</button>
+                                    <a href="user/login.php" class="btn btn-sm btn-block btn-outline-primary" target="_blank">Agendar</a>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +211,7 @@
                                         <li>Barba e Cabelo</li>
                                         <li>Sobrancelhas</li>
                                     </ul>
-                                    <button type="button" class="btn btn-sm btn-block btn-outline-primary">Agendar</button>
+                                    <a href="user/login.php" class="btn btn-sm btn-block btn-outline-primary" target="_blank">Agendar</a>
                                 </div>
                             </div>
                         </div>
@@ -255,7 +228,7 @@
                                         <li>Sobrancelhas</li>
                                         <li>Hidratação capilar</li>
                                     </ul>
-                                    <button type="button" class="btn btn-sm btn-block btn-outline-primary">Agendar</button>
+                                    <a href="user/login.php" class="btn btn-sm btn-block btn-outline-primary" target="_blank">Agendar</a>
                                 </div>
                             </div>
                         </div>
@@ -272,11 +245,11 @@
                                         <li>Hidratação capilar</li>
                                         <li>Tintura barba e cabelo</li>
                                     </ul>
-                                    <button type="button" class="btn btn-sm btn-block btn-outline-primary">Agendar</button>
+                                    <a href="user/login.php" class="btn btn-sm btn-block btn-outline-primary" target="_blank">Agendar</a>
                                 </div>
                             </div>
                         </div>
-                        <p class=" float-right text-warning font3 >Preços unitários e muuuito mais <a href=" " class=" btn btn-outline-primary text-light ">Agendar</a> </p>
+                        <p class=" float-right text-warning font3">Preços unitários e muuuito mais <a href="user/login.php " class=" btn btn-outline-primary text-light" target="_blank">Agendar</a> </p>
 
                     </div>
 
@@ -286,47 +259,56 @@
 
         </div>
     </section>
-    <section class=" section5">
+    <section class="section-galeria  dark" id="galeria">
+        <div class="margem"></div>
+        <div class="container">
+            <h1 class="text-center text-warning font3">- Galeria ... </h1>
+        </div>
+    </section>
 
-                            <div style="height: 40px;"></div>
-                            <div class="container">
-                                <h2 class=" text-warning text-center font3"> Fale conosco...</h2>
-                                <form action=" " method="GET" class="offset-md-3 wow slideInLeft">
 
-                                    <div class="form-group text-light">
-                                        <label for="InputNome">Seu nome:</label>
-                                        <input type="name" required class="form-control shadow rounded col-md-7 col-form-label-lg " id="InputNome " aria-describedby="nameHelp ">
 
-                                    </div>
-                                    <div class="form-group text-light ">
-                                        <label for="InputEmail">E-mail:</label>
-                                        <input type="email" required class="form-control shadow rounded col-md-7 col-form-label-lg " aria-describedby="emailHelp " id="InputEmail ">
-                                    </div>
-                                    <div class="form-group text-light ">
-                                        <label for="InputFone">Telefone:</label>
-                                        <input type="phone" required class="form-control shadow rounded col-md-7 col-form-label-lg " id="InputFone ">
+    <section class=" section5" id="contato">
 
-                                    </div>
-                                    <div class="form-group text-light">
-                                        <label for="InputCity ">Cidade:</label>
-                                        <input type="city" class="form-control shadow rounded col-md-7 col-form-label-lg " id="InputCity ">
+        <div style="height: 40px;"></div>
+        <div class="container">
+            <h2 class=" text-warning text-center font3"> Fale conosco...</h2>
+            <form action=" " method="GET" class="offset-md-3 wow slideInLeft">
 
-                                    </div>
-                                    <div class="form-group text-light">
-                                        <label for="mensagem">Mensagem:</label>
-                                        <textarea class="form-control col-md-7 shadow rounded " required id="mensagem " rows="3 "></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-3 ">Enviar</button>
-                                </form>
-                            </div>
+                <div class="form-group text-light">
+                    <label for="InputNome">Seu nome:</label>
+                    <input type="name" required class="form-control shadow rounded col-md-7 col-form-label-lg " id="InputNome " aria-describedby="nameHelp ">
+
+                </div>
+                <div class="form-group text-light ">
+                    <label for="InputEmail">E-mail:</label>
+                    <input type="email" required class="form-control shadow rounded col-md-7 col-form-label-lg " aria-describedby="emailHelp " id="InputEmail ">
+                </div>
+                <div class="form-group text-light ">
+                    <label for="InputFone">Telefone:</label>
+                    <input type="phone" required class="form-control shadow rounded col-md-7 col-form-label-lg " id="InputFone ">
+
+                </div>
+                <div class="form-group text-light">
+                    <label for="InputCity ">Cidade:</label>
+                    <input type="city" class="form-control shadow rounded col-md-7 col-form-label-lg " id="InputCity ">
+
+                </div>
+                <div class="form-group text-light">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control col-md-7 shadow rounded " required id="mensagem " rows="3 "></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-3 ">Enviar</button>
+            </form>
+        </div>
 
     </section>
 
     <section class="section6">
-        <div style="height: 30px; "> </div>
+        <div style="height: 30px;"> </div>
 
 
-        <div class="ml-2">
+        <div class="ml-">
             <div class="row">
                 <div class="col-md-4 dark">
                     <div class="ml-5 row row-cols-4">
@@ -355,14 +337,15 @@
                 </div>
                 <div class="col-md-7">
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4627.847798624136!2d-42.28877735219552!3d-16.16601101290131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x74debc699a2df93%3A0xdff7b83759aff6dd!2sEst%C3%A1dio%20Mun.%20Darcy%20Ribeiro%2C%20Salinas%20-%20MG%2C%2039560-000!5e0!3m2!1spt-BR!2sbr!4v1589890366646!5m2!1spt-BR!2sbr " width="100% " height="400 " frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4627.847798624136!2d-42.28877735219552!3d-16.16601101290131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x74debc699a2df93%3A0xdff7b83759aff6dd!2sEst%C3%A1dio%20Mun.%20Darcy%20Ribeiro%2C%20Salinas%20-%20MG%2C%2039560-000!5e0!3m2!1spt-BR!2sbr!4v1589890366646!5m2!1spt-BR!2sbr " width="100%" height="400" frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
 
                 </div>
 
             </div>
         </div>
-
+        <div class="margem"></div>
         <div style="height: 30px;"> </div>
+
     </section>
 
 
