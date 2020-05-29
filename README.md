@@ -6,8 +6,7 @@
 Barber Shop
 </h1>
 
-<p align="center">A little description about your project</p>
-
+<p align="center">Um pequeno sistema para gerenciamento gerenciamento de barbearias </p>
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
@@ -18,13 +17,32 @@ Barber Shop
   <a href="">
    <img alt="GitHub issues" src="https://img.shields.io/github/issues/brenovambaster/barber_shopWeb?color=red">
   </a>
-
-
 </p>
 
+## Description
+  - ### Cliente:
+    * agendar e ver agendamentos;  
+    * escolher qual franquia;
+    * escolher tipo de serviço;
+    * escolher barbeiro;
+    * ver as  informações dos barbeiros;
+    
+  - ### Barbeiro
+      * ver clientes agendados; 
+      * confirmar  o atendimento do cliente; 
+      * ver atendimentos concluídos;
+  - ### Propietário
+    * add/deletar barbeiros;
+    * ver todos os atendimentos; 
+    * Relatório  de atendimentos, valor total gerado em determinao período de tempo etc.
+    * filtrar atendimentos por barbeiro, data etc;
+    * add tipo de serviço
+    
+_Obs*: Outras funcionalidades  implementadas serão dispostas aqui futuramente_
+
+ --- 
 ## Features
-[//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
+  Estas são algumas das tecnologias utilizadas nesse sistema:
 
 - ⚛️ **Bootstrap** — Framework front end versão 4.5
 - ⚛️ **PHP** — Linguagem de programação. 
