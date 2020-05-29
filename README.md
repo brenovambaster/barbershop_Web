@@ -1,4 +1,3 @@
-# barberWeb
 <h1 align="center">
 <br>
   <img src="img/front.png" alt="YOUR_PROJECT_NAME" height="100%" width="100%">
@@ -23,9 +22,15 @@ This app features all the latest tools and practices in mobile development!
 - ⚛️ **PHP** — Linguagem de programação. 
 - 💹 **XAMPP** — Ferramenta que vem incluso o servidor local com banco de dados mysql
 
-## Getting started
 
-Describe here the way to use/install your project
+## Getting started
+- Baixe o XAMPP
+- No site, tem instruções de como baixar e instalar [ ver mais](https://www.apachefriends.org/pt_br/index.html)
+- Clone este repositório dentro da pasta `C:\xampp\htdocs`
+- Abra o xampp e dê start no Apache e Mysql
+- Abra o browser e digite localhost + o nome pasta que baixou:
+  - Ex: `localhost/barber_shopWeb-master/`
+
 
 
 ## License
