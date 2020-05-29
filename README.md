@@ -12,6 +12,14 @@ Barber Shop
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
+  <a href="">
+   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brenovambaster/barber_shopWeb">
+  </a>
+  <a href="">
+   <img alt="GitHub issues" src="https://img.shields.io/github/issues/brenovambaster/barber_shopWeb?color=red">
+  </a>
+
+
 </p>
 
 ## Features
@@ -21,6 +29,7 @@ This app features all the latest tools and practices in mobile development!
 - ⚛️ **Bootstrap** — Framework front end versão 4.5
 - ⚛️ **PHP** — Linguagem de programação. 
 - 💹 **XAMPP** — Ferramenta que vem incluso o servidor local com banco de dados mysql
+- 💹 **Jquery** — É uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente. 
 
 
 ## Getting started
