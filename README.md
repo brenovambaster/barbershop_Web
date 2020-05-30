@@ -3,7 +3,7 @@
   <img src="img/front.png" alt="YOUR_PROJECT_NAME" height="100%" width="100%">
 <br>
 <br>
-Barber Shop
+Barbershop
 </h1>
 
 <p align="center">Um pequeno sistema para gerenciamento  de barbearias </p>
